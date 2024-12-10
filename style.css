@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("Outfit-VariableFont_wght.ttf");
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Outfit" , sans-serif;
+    background-color:hsl(212, 45%, 89%);
+   /* h1 color : background-color: hsl(218, 44%, 22%); */
+   
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 90%;
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 1.5rem;
+    color: hsl(218, 44%, 22%);
+    margin: 20px 0 10px;
+  }
+  
+  p {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 85%;
+    color: hsl(216, 15%, 48%);
+    margin: 0 auto;
+    color:hsl(216, 15%, 48%);
+  }
+  /* Media Query برای دسکتاپ (1440px یا بزرگتر) */
+  @media (min-width:1440px){
+    .container{
+        width: 400px;
+        padding: 30px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+  }
